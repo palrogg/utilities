@@ -1,4 +1,4 @@
-# Image resize
+# [Image resize](https://github.com/palrogg/utilities/tree/master/image-resize)
 
 A tool to resize a folder of images.
 
