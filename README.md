@@ -1,6 +1,6 @@
 # [Image resize](https://github.com/palrogg/utilities/tree/master/image-resize)
 
-A tool to resize a folder of images.
+A tool to resize a folder of images with PIL (Python Image Library).
 
 # [Metadata extractor](https://github.com/palrogg/utilities/blob/master/Get_images_metadata.ipynb)
 
