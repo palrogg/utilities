@@ -2,11 +2,10 @@
 
 A tool to resize a folder of images.
 
-# Metadata extractor
+# [Metadata extractor](https://github.com/palrogg/utilities/blob/master/Get_images_metadata.ipynb)
 
-Get the metadata of a folder of images. (Should be uploaded around September 19, after some code cleaning)
+Get the metadata of a folder of images.
 
-# Geneva Open Data merger
+# [Geneva Open Data merger](https://github.com/palrogg/SITG_Geodata_Convert)
 
-Geneva's Open Data files can either contain good columns, but a specific Swiss geodata, or good geodata, but unusable columns. This tool opens the kmz and the csv inside the two corresponding zip files and merges it into a clean CSV. (Should be online around September 19)
-
+Geneva's Open Data files can either contain good columns, but a specific Swiss geodata, or good geodata, but unusable columns. This tool opens the kmz and the csv inside the two corresponding zip files and merges it into a clean CSV. (Moved to a separate repository.)
