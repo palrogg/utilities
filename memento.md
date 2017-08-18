@@ -19,6 +19,12 @@ Example:
 
 ## Useful Pandas commands
 
+### Open non-UTF8 files
+
+`df = pd.read_csv('thefile.csv', encoding=u'Windows 1252')`
+
+### Show duplicates
+
 ```
 df[df.duplicated()]
 
@@ -46,5 +52,14 @@ or
 `mdata = df.groupby(by=df.index.month).size()`
 
 ## Current date
-```today_str = datetime.now().strftime("%Y-%m-%d")
-2017-10-02```
+```
+today_str = datetime.now().strftime("%Y-%m-%d")
+2017-10-02
+```
+
+
+## Cartojs
+
+### Load map with carto.js
+
+//columbialibraries.carto.com/u/paulrong/**api/v2/viz**/aac3e918-6b3e-4e21-8235-b3bdb82d1b3e/**viz.json**
