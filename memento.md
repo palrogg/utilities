@@ -37,13 +37,13 @@ df.reset_index(inplace=True)
 
 ### Strings
 
-df[df['Textcolumn'].str.contains('Hey')]
+`df[df['Textcolumn'].str.contains('Hey')]`
 
-df[df['Textcolumn'].str.match('^A')]
+`df[df['Textcolumn'].str.match('^A')]`
 
 ### Resample, group by date
 
-`df[df['Catégorie'] == 'bouchon'].groupby([lambda x: x.hour]).size().plot(figsize=(12, 5), rot=0, color='#fd5312', title='Les heures des perturbations')`
+`df.groupby([lambda x: x.hour]).size().plot()`
 
 `mdata = df.groupby([lambda x: x.month]).size()`
 
