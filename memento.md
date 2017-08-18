@@ -21,6 +21,9 @@ Example:
 
 ```
 df[df.duplicated()]
+
+df[df.duplicated(subset=('col1', 'col2'))]
+
 df[df['column'].duplicated()]
 
 df.reset_index(inplace=True)
@@ -33,6 +36,8 @@ df[df['Textcolumn'].str.contains('Hey')]
 df[df['Textcolumn'].str.match('^A')]
 
 ### Resample, group by date
+
+`df[df['Catégorie'] == 'bouchon'].groupby([lambda x: x.hour]).size().plot(figsize=(12, 5), rot=0, color='#fd5312', title='Les heures des perturbations')`
 
 `mdata = df.groupby([lambda x: x.month]).size()`
 
